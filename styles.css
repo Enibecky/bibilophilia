@@ -2,15 +2,23 @@
   font-family: "Nunito", sans-serif;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
-section{
+.hero{
+    background: url(images/Desktop\ -\ 5.png);
+    height: 43rem;
+    width: 100%;
+    backdrop-filter: blur(50%);
+}
+.section-two{
 background: rgba(198, 189, 255, 16%);
 background-size: cover;
-position: fixed;
 height: auto;
 display: flex;
 flex-direction: row;
 width: 100%;
+padding-left: rem;
+position: absolute;
 }
 
 .part-one{
@@ -31,6 +39,7 @@ width: 50%;
   flex-direction: row;
   translate: 0.1rem 5.45rem ;
   height: auto;
+  
 }
 .percent{
 padding-top: 2rem;
